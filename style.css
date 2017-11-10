@@ -1,0 +1,425 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #000;
+	font-size: 16px;
+}
+
+.container {
+	width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 5px;
+	padding-right: 5px
+}
+
+.row {
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+.row:after {
+	display: table;
+	content: '';
+	clear: both;
+}
+
+[class*="col-"] {
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px
+}
+
+.col-1 {
+	width: 8.3333333%;
+}
+
+.col-2 {
+	width: 16.6666667%;
+}
+
+.col-3 {
+	width: 25%;
+}
+
+.col-4 {
+	width: 33.3333333%;
+}
+
+.col-5 {
+	width: 41.6666667%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-7 {
+	width: 58.3333333%;
+}
+
+.col-8 {
+	width: 66.6666667%;
+}
+
+.col-9 {
+	width: 75%;
+}
+
+.col-10 {
+	width: 83.3333333%;
+}
+
+.col-11 {
+	width: 91.6666667%;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+
+/* =============== */
+
+.test-block {
+	height: 300px;
+	margin-bottom: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+.nav1{
+    
+    background-color: #000;
+    color:#fff;
+    display: inline-block;
+    border: -3px solid #000;
+    width: 33%;
+    height: 100px;
+    text-align: center;
+    margin: 0px; 
+    
+    
+}
+
+.nav2{
+    background-color: #000;
+    color:#fff;
+    display: inline-block;
+    border: -3px solid #000;
+    width: 33%;
+    height: 100px;
+    text-align: center;
+    margin: -5  0
+        ; 
+    padding: 3px;
+}
+.nav3{
+     background-color: #000;
+    color:#fff;
+    display: inline-block;
+    border: -3px solid #000;
+    width: 33%;
+    height: 100px;
+    text-align: center;
+    
+    padding: 
+}
+
+p.text-inf{
+    font-family: arial;
+    text-align: center;
+    color:#fff;
+    font-weight: 700;
+    padding-top: 30px;
+}
+.hr{
+    background-color: #fff;
+    width:100%;
+    
+}
+.in{
+   margin-top: 30px;
+    
+}
+.cont1{background-color:#000; }
+.in1{
+    
+    border-color: #01549b;
+    background-color: #025aa5;
+}
+    .in2{padding-top: 8px;}
+
+.br{
+    border: 0;
+    margin:-2px;
+    color: #fff;
+background-color: #025aa5;
+border-color: #01549b;
+}
+.a1{
+    color: #fff;
+
+}
+.pad{
+    padding-top: 10px;
+    border: 5px solid #fff;
+}
+
+
+nav {
+  width: 80%;
+  margin: 0 30px ;
+}
+ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+.topmenu > li {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+    float: left;
+}
+.topmenu > li:last-child {
+  margin-right: 0;
+}
+a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Lora', serif;
+  transition: .5s linear;
+    color: #eef1f3;
+}
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+.men ul {
+  background:;
+}
+.men .submenu {
+  -webkit-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+  transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+  background: #025AA5;;
+}
+.men ul li:hover .submenu {
+  transform: scaleY(1);
+    transform: scaleY(1);
+    transform: scaleY(1);
+}
+.men ul a {
+  color:  #eef1f3;
+}
+
+
+.f1{
+    float: right;
+    padding: 3px;
+}
+.cont2{
+   width: 30%;
+margin-left: -3px;
+margin-right: 50px;
+padding-right: 0px;
+text-align: left;
+float: right;
+color: #fff;
+margin-top: 150px;
+}
+.cont2-1{
+   width: 100%;
+margin-left: 100px;
+margin-right: 5px;
+padding-right: 0px;
+text-align: left;
+color: #fff;
+margin-top: 140px;
+}
+
+.bt1{
+    display:inline-block;
+    opacity: 0;
+}
+   .bt1:hover{
+   background-color: blue; 
+       opacity: 1;
+   } 
+   
+    
+}
+.form:hovre.bt1{
+display: block;
+    top:5px;
+   
+}
+
+
+.cont3{
+     background-image:url(fyra1.png);
+   padding-left: 3px;
+    padding-right: -0px;
+    margin-right: -4px;
+    margin-bottom: 20px;
+   width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#myFooter {
+    background-color: #000;
+    color: white;
+    width: 100%;
+margin-right: auto;
+margin-left: auto;
+padding-left: 3px;
+padding-right: 5px;
+}
+.inp{margin: 2px;
+line-height: inherit;
+border-radius: 10px;
+opacity: 0.5;
+}
+.bt1{
+        background-color: #025aa5;
+}
+}
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .info{
+    text-align: justify; 
+    color: #afb0b1;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter .logo{
+    margin-top: 10px;
+}
+
+#myFooter .second-bar .logo a{
+    color:white;
+    font-size: 28px;
+    float: left;
+    font-weight: bold;
+    line-height: 68px;
+    margin: 0;
+    padding: 0;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .second-bar {
+    text-align: center;
+    background-color: #33373e;
+    text-align: center;
+}
+
+#myFooter .second-bar a {
+    font-size: 22px;
+    color: #9fa3a9;
+    padding: 10px;
+    transition: 0.2s;
+    line-height: 68px;
+}
+
+#myFooter .second-bar a:hover {
+    text-decoration: none;
+}
+
+#myFooter .social-icons {
+    float:right;
+}
+
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+
+    #myFooter .info{
+        text-align: center;
+    }
+}
+
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+html{
+    height: 100%;
+}
+
+
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
